@@ -19,3 +19,6 @@ def home_page_view2(request):
 def pycharmview(req):
 	return HttpResponse("<h1>Hello from Pycharm</h1><hr />")
 
+def githubview(req):
+	return HttpResponse("<h1>Hello from Github</h1><hr />")
+
